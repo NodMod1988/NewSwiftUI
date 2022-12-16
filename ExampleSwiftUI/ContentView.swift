@@ -9,14 +9,35 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundColor(.accentColor)
-            Text("Hello, world!")
+        ZStack{
+            ScrollView{
+                VStack{
+                    CharacterView(
+                        name: "Mario",
+                        imageName: "mario",
+                        description: "Ein Mario"
+                    )
+                    CharacterView(
+                        name: "Cooper",
+                        imageName: "cooper",
+                        description: "Ein Cooper"
+                    )
+                    CharacterView(
+                        name: "Yoshi",
+                        imageName: "yoshi",
+                        description: "Ein Yoshi"
+                    )
+                }
+            }
         }
+        
+        .cornerRadius(25)
         .padding()
     }
+}
+
+func sendMessage(){
+    
 }
 
 struct ContentView_Previews: PreviewProvider {

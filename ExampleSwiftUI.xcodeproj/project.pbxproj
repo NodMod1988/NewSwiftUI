@@ -11,6 +11,7 @@
 		898951FD294C9E5F0037803E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 898951FC294C9E5F0037803E /* ContentView.swift */; };
 		898951FF294C9E600037803E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 898951FE294C9E600037803E /* Assets.xcassets */; };
 		89895202294C9E600037803E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 89895201294C9E600037803E /* Preview Assets.xcassets */; };
+		89895209294CA6DC0037803E /* CharacterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89895208294CA6DC0037803E /* CharacterView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		898951FC294C9E5F0037803E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		898951FE294C9E600037803E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		89895201294C9E600037803E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		89895208294CA6DC0037803E /* CharacterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +55,7 @@
 			children = (
 				898951FA294C9E5F0037803E /* ExampleSwiftUIApp.swift */,
 				898951FC294C9E5F0037803E /* ContentView.swift */,
+				89895208294CA6DC0037803E /* CharacterView.swift */,
 				898951FE294C9E600037803E /* Assets.xcassets */,
 				89895200294C9E600037803E /* Preview Content */,
 			);
@@ -137,6 +140,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				89895209294CA6DC0037803E /* CharacterView.swift in Sources */,
 				898951FD294C9E5F0037803E /* ContentView.swift in Sources */,
 				898951FB294C9E5F0037803E /* ExampleSwiftUIApp.swift in Sources */,
 			);
